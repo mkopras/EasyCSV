@@ -22,4 +22,14 @@ abstract class AbstractBase
             fclose($this->_handle);
         }
     }
+
+    public function setDelimiter($delimiter)
+    {
+        $this->_delimiter = $delimiter;
+    }
+
+    public function getDelimiter()
+    {
+        return $this->_delimiter;
+    }
 }
