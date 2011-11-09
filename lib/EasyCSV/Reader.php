@@ -38,4 +38,9 @@ class Reader extends AbstractBase
     {
         return $this->_line;
     }
+
+	public function getHeaders()
+	{
+		return $this->_headers;
+	}
 }
