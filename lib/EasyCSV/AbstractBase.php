@@ -32,4 +32,9 @@ abstract class AbstractBase
     {
         return $this->_delimiter;
     }
+
+    public function getHandle()
+    {
+        return $this->_handle;
+    }
 }
